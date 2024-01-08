@@ -1,0 +1,14 @@
+# Whitelist
+*
+!.gitignore
+!src
+!.editorconfig
+!.eslintrc.js
+!.prettierrc
+!Dockerfile
+!package.json
+!pnpm-lock.yaml
+!README.md
+!slack.app.manifest.yaml
+!tsconfig.build.json
+!tsconfig.json
