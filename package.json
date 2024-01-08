@@ -1,12 +1,14 @@
 {
-  "name": "devex-slack-bot",
+  "name": "slack-app",
   "version": "1.0.0",
-  "description": "Slack bot for auto response to DevEx team related questions",
-  "author": "DevEx Group",
+  "description": "Slack app for auto response",
+  "author": "My Group",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
     "build": "tsc && node src/scripts/copy-config.js",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\" --fix",
     "start": "node dist/main.js",
     "start:debug": "node --inspect -r ts-node/register src/main.ts"
   },
@@ -17,8 +19,13 @@
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.10.7",
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
     "fs-extra": "^11.2.0",
     "path": "^0.12.7",
+    "prettier": "^3.1.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
