@@ -1,9 +1,9 @@
 ---
 display_information:
-  name: Skyway Bot
+  name: My Slack Bot
 features:
   bot_user:
-    display_name: Skyway Bot
+    display_name: My Slack Bot
     always_online: true
 oauth_config:
   scopes:
