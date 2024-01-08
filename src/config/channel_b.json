@@ -1,0 +1,12 @@
+{
+  "dynamodb": {
+    "pattern": "(Amazon DynamoDB|DynamoDB|Dynamo)",
+    "message": "Hi, __USER__, it seems you're seeking help with Amazon DynamoDB. Please refer to our documentation <https://docs.aws.amazon.com/dynamodb/> for more information. If this doesn't fully address your concerns, let us know so we can assist you further!",
+    "priority": 0
+  },
+  "donttagus": {
+    "pattern": "(S05TJ3KKAG3|\\*<!here>\\*|\\*<!channel>\\*)",
+    "message": "Hi, __USER__, to help manage our Slack notifications more effectively, please avoid tagging `db_support` in its channel. Rest assured, all members are active in the channel and will address your queries promptly. For urgent matters, feel free to tag `db_support` for immediate attention.",
+    "priority": 99
+  }
+}
